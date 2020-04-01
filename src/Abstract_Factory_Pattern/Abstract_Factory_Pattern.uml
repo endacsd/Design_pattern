@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Abstract_Factory_Pattern</OriginalElement>
+  <nodes>
+    <node x="193.96955128205144" y="333.0">Abstract_Factory_Pattern.ColorFactory</node>
+    <node x="284.5000000000001" y="181.5">Abstract_Factory_Pattern.Green</node>
+    <node x="427.5000000000001" y="166.0">Abstract_Factory_Pattern.AbstractFactory</node>
+    <node x="141.5000000000001" y="181.5">Abstract_Factory_Pattern.Red</node>
+    <node x="686.5000000000001" y="181.5">Abstract_Factory_Pattern.Square</node>
+    <node x="10.5" y="181.5">Abstract_Factory_Pattern.Blue</node>
+    <node x="677.7195512820515" y="333.0">Abstract_Factory_Pattern.ShapeFactory</node>
+    <node x="217.70032051282055" y="0.0">Abstract_Factory_Pattern.Color</node>
+    <node x="762.2003205128206" y="0.0">Abstract_Factory_Pattern.Shape</node>
+    <node x="850.5000000000001" y="181.5">Abstract_Factory_Pattern.Circle</node>
+    <node x="1002.5000000000001" y="181.5">Abstract_Factory_Pattern.Rectangle</node>
+    <node x="388.9695512820515" y="480.0">Abstract_Factory_Pattern.FactoryProducer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Abstract_Factory_Pattern.ColorFactory" target="Abstract_Factory_Pattern.Shape">
+      <point x="70.9375" y="-48.5" />
+      <point x="378.40705128205144" y="303.0" />
+      <point x="417.0000000000001" y="303.0" />
+      <point x="417.0000000000001" y="126.0" />
+      <point x="784.2003205128206" y="126.0" />
+      <point x="-44.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ColorFactory" target="Abstract_Factory_Pattern.Green">
+      <point x="14.1875" y="-48.5" />
+      <point x="321.65705128205144" y="313.0" />
+      <point x="340.0000000000001" y="313.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.FactoryProducer" target="Abstract_Factory_Pattern.Color">
+      <point x="-127.08333333333337" y="-33.0" />
+      <point x="414.3862179487181" y="460.0" />
+      <point x="0.0" y="460.0" />
+      <point x="0.0" y="126.0" />
+      <point x="223.86698717948718" y="126.0" />
+      <point x="-49.33333333333337" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.Blue" target="Abstract_Factory_Pattern.Color">
+      <point x="0.0" y="-33.0" />
+      <point x="66.0" y="136.0" />
+      <point x="236.20032051282055" y="136.0" />
+      <point x="-37.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.AbstractFactory" target="Abstract_Factory_Pattern.Shape">
+      <point x="56.75" y="-48.5" />
+      <point x="597.7500000000001" y="136.0" />
+      <point x="798.8669871794872" y="136.0" />
+      <point x="-29.33333333333337" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ShapeFactory" target="Abstract_Factory_Pattern.Color">
+      <point x="-70.9375" y="-48.5" />
+      <point x="720.2820512820515" y="303.0" />
+      <point x="665.0000000000001" y="303.0" />
+      <point x="665.0000000000001" y="96.0" />
+      <point x="310.20032051282055" y="96.0" />
+      <point x="37.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ColorFactory" target="Abstract_Factory_Pattern.Red">
+      <point x="-70.9375" y="-48.5" />
+      <point x="236.53205128205144" y="303.0" />
+      <point x="197.0000000000001" y="303.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.Rectangle" target="Abstract_Factory_Pattern.Shape">
+      <point x="0.0" y="-33.0" />
+      <point x="1071.5" y="136.0" />
+      <point x="872.2003205128206" y="136.0" />
+      <point x="44.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.FactoryProducer" target="Abstract_Factory_Pattern.AbstractFactory">
+      <point x="-25.416666666666742" y="-33.0" />
+      <point x="516.0528846153848" y="460.0" />
+      <point x="535.5000000000001" y="460.0" />
+      <point x="535.5000000000001" y="313.0" />
+      <point x="512.6250000000001" y="313.0" />
+      <point x="-28.375" y="48.5" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ColorFactory" target="Abstract_Factory_Pattern.Color">
+      <point x="-14.1875" y="-48.5" />
+      <point x="293.28205128205144" y="313.0" />
+      <point x="274.0000000000001" y="313.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ShapeFactory" target="Abstract_Factory_Pattern.Circle">
+      <point x="70.9375" y="-48.5" />
+      <point x="862.1570512820515" y="303.0" />
+      <point x="916.5000000000001" y="303.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.AbstractFactory" target="Abstract_Factory_Pattern.Color">
+      <point x="-56.75" y="-48.5" />
+      <point x="484.2500000000001" y="106.0" />
+      <point x="297.86698717948724" y="106.0" />
+      <point x="24.666666666666686" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.FactoryProducer" target="Abstract_Factory_Pattern.Shape">
+      <point x="127.08333333333337" y="-33.0" />
+      <point x="668.5528846153849" y="460.0" />
+      <point x="1151.0" y="460.0" />
+      <point x="1151.0" y="126.0" />
+      <point x="886.8669871794872" y="126.0" />
+      <point x="58.66666666666663" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ShapeFactory" target="Abstract_Factory_Pattern.Rectangle">
+      <point x="99.3125" y="-48.5" />
+      <point x="890.5320512820515" y="313.0" />
+      <point x="1071.5" y="313.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.FactoryProducer" target="Abstract_Factory_Pattern.ColorFactory">
+      <point x="-76.25" y="-33.0" />
+      <point x="465.2195512820515" y="450.0" />
+      <point x="307.46955128205144" y="450.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ShapeFactory" target="Abstract_Factory_Pattern.Shape">
+      <point x="14.1875" y="-48.5" />
+      <point x="805.4070512820515" y="303.0" />
+      <point x="829.0000000000001" y="303.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.FactoryProducer" target="Abstract_Factory_Pattern.ShapeFactory">
+      <point x="76.25" y="-33.0" />
+      <point x="617.7195512820515" y="450.0" />
+      <point x="791.2195512820515" y="450.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.Red" target="Abstract_Factory_Pattern.Color">
+      <point x="0.0" y="-33.0" />
+      <point x="197.0000000000001" y="146.0" />
+      <point x="248.53365384615392" y="146.0" />
+      <point x="-24.666666666666657" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ColorFactory" target="Abstract_Factory_Pattern.Blue">
+      <point x="-99.3125" y="-48.5" />
+      <point x="208.15705128205144" y="313.0" />
+      <point x="66.0" y="313.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ShapeFactory" target="Abstract_Factory_Pattern.AbstractFactory">
+      <point x="-99.3125" y="-48.5" />
+      <point x="691.9070512820515" y="313.0" />
+      <point x="626.1250000000001" y="313.0" />
+      <point x="85.125" y="48.5" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.Circle" target="Abstract_Factory_Pattern.Shape">
+      <point x="0.0" y="-33.0" />
+      <point x="916.5000000000001" y="146.0" />
+      <point x="857.5336538461539" y="146.0" />
+      <point x="29.33333333333337" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ColorFactory" target="Abstract_Factory_Pattern.AbstractFactory">
+      <point x="99.3125" y="-48.5" />
+      <point x="406.78205128205144" y="313.0" />
+      <point x="455.8750000000001" y="313.0" />
+      <point x="-85.125" y="48.5" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.Square" target="Abstract_Factory_Pattern.Shape">
+      <point x="0.0" y="-33.0" />
+      <point x="752.5000000000001" y="146.0" />
+      <point x="813.5336538461539" y="146.0" />
+      <point x="-14.666666666666629" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.Green" target="Abstract_Factory_Pattern.Color">
+      <point x="0.0" y="-33.0" />
+      <point x="340.0000000000001" y="146.0" />
+      <point x="285.5336538461539" y="146.0" />
+      <point x="12.333333333333371" y="33.0" />
+    </edge>
+    <edge source="Abstract_Factory_Pattern.ShapeFactory" target="Abstract_Factory_Pattern.Square">
+      <point x="-14.1875" y="-48.5" />
+      <point x="777.0320512820515" y="283.0" />
+      <point x="752.5000000000001" y="283.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="467.0" y="267.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

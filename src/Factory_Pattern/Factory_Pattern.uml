@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Factory_Pattern</OriginalElement>
+  <nodes>
+    <node x="0.0" y="116.0">Factory_Pattern.Rectangle</node>
+    <node x="0.0" y="227.0">Factory_Pattern.FactoryPatternDemo</node>
+    <node x="0.0" y="338.0">Factory_Pattern.ShapeFactory</node>
+    <node x="158.0" y="116.0">Factory_Pattern.Square</node>
+    <node x="310.0" y="116.0">Factory_Pattern.Circle</node>
+    <node x="158.0" y="0.0">Factory_Pattern.Shape</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Factory_Pattern.Circle" target="Factory_Pattern.Shape">
+      <point x="0.0" y="-33.0" />
+      <point x="376.0" y="91.0" />
+      <point x="268.0" y="91.0" />
+      <point x="44.0" y="33.0" />
+    </edge>
+    <edge source="Factory_Pattern.Square" target="Factory_Pattern.Shape">
+      <point x="0.0" y="-33.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="Factory_Pattern.Rectangle" target="Factory_Pattern.Shape">
+      <point x="0.0" y="-33.0" />
+      <point x="69.0" y="91.0" />
+      <point x="180.0" y="91.0" />
+      <point x="-44.0" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="221.0" y="202.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
